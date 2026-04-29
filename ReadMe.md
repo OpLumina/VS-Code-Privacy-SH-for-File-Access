@@ -1,4 +1,4 @@
-# vmask
+# vmask (WIP)
 
 A rootless privacy shield for VS Code. `vmask` uses **Linux namespaces** (via `bubblewrap`) to launch VS Code in a sandboxed environment where sensitive directories are replaced by empty `tmpfs` mounts. 
 
