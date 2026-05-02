@@ -68,7 +68,7 @@ http://host.docker.internal:3000   ← your local API server
 http://host.docker.internal:5432   ← local PostgreSQL
 ```
 
-## Tip: add .blueprint to .gitignore
+## Add .blueprint to .gitignore
 
 ```bash
 echo ".blueprint/" >> .gitignore
