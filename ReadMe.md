@@ -6,6 +6,7 @@ Launch an isolated VS Code environment where specific host directories are invis
 
 ```bash
 # 1. Build the image (once)
+bash ./install.sh
 vsmask --build
 
 # 2. Add config files to your project
