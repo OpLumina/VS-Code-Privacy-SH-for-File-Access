@@ -75,3 +75,13 @@ echo ".blueprint/" >> .gitignore
 ```
 
 `.blueprint/` contains copies of your `.vsallow` files and is deleted on shutdown, but adding it to `.gitignore` prevents accidental commits if the cleanup is interrupted.
+
+
+
+
+## Networking Fix
+If docker ps is returning just 8080/tcp instead of 0.0.0.0:8080->8080/tcp:
+```
+docker network rm vsmask-net
+docker network create vsmask-net
+```
